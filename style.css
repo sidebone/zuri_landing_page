@@ -17,7 +17,6 @@ body {
 div.nav-bar {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 1rem;
 	padding-bottom: 1rem;
 	padding-right: 6rem;
 	background: #fff;
@@ -27,6 +26,7 @@ div.nav-bar {
 	font-size: 22px;
 	margin-top: 10px;
 	height: 40px;
+	cursor: pointer;
 }
 ul.nav-links {
 	display: flex;
@@ -115,6 +115,7 @@ input {
 	border-radius: 7px;
 	margin: 5px;
 	padding: 20px;
+	color: #a7a7a7;
 	
 }
 select {
@@ -122,8 +123,10 @@ select {
 	border: none;
 	border-radius: 7px;
 	margin: 5px;
-	padding-left: 12px;
-	padding-right: 12px;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 40px;
+	color: #a7a7a7;
 }
  select:focus{ 
 	background: rgba(253, 188, 185, 0.2);
@@ -157,4 +160,56 @@ button {
 	margin-top: 20px;
 	margin-left: 10em;
 	letter-spacing: 1px;
+	cursor: pointer;
 }
+.banner{
+	background-image: url(image/banner.jpg);
+	width: 78em;
+	height: 10em;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 2em;
+	padding-right: 2em;
+	margin-top: 3em;
+	margin-bottom: 7em;
+}
+.banner p{
+	text-align: left;
+	font-size: 1.3em;
+	font-weight: 520;
+}
+.banner a{
+	text-decoration: none;
+	width: 15em;
+	height: 40px;
+	color: #fff;
+	background-color: red;
+	border: none;
+	border-radius: 7px;
+	letter-spacing: 1px;
+	text-align: center;
+	padding-top: 6px;
+}
+footer{
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+}
+footer h3 img {
+	height: 10px;
+}
+footer div a{
+	display: block;
+	text-decoration: none;
+	color: black;
+
+}
+.social div{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-right: 30px;
+}
+
+

@@ -115,6 +115,29 @@ input {
 	border-radius: 7px;
 	margin: 5px;
 	padding: 20px;
+	
+}
+select {
+	background: rgba(253, 188, 185, 0.2);
+	border: none;
+	border-radius: 7px;
+	margin: 5px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+ select:focus{ 
+	background: rgba(253, 188, 185, 0.2);
+  color: #a7a7a7;
+  text-align: center;
+	border: none; 
+}
+select option{
+	background: rgba(253, 188, 185, 0.2);
+	color: #a7a7a7;
+	text-align: center;
+}
+select option:hover{
+	color: #a7a7a7;
 }
 textarea {
 	background: rgba(253, 188, 185, 0.2);
@@ -131,7 +154,7 @@ button {
 	background-color: red;
 	border: none;
 	border-radius: 7px;
-	margin-top: 23px;
+	margin-top: 20px;
 	margin-left: 10em;
 	letter-spacing: 1px;
 }

@@ -1,0 +1,137 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: "Poppins", sans-serif, "Playfair Display", serif;
+}
+
+.container {
+	font-family: Poppins;
+	margin-left: 5rem;
+	overflow: hidden;
+	background-color:;
+}
+
+div.nav-bar {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-right: 6rem;
+	background: #fff;
+}
+.logo img {
+	display: inline-block;
+	font-size: 22px;
+	margin-top: 10px;
+	height: 40px;
+}
+ul.nav-links {
+	display: flex;
+	margin: 10px;
+	padding: 0;
+	padding-right: 14em;
+}
+
+ul li {
+	margin: 0 2vw;
+	list-style: none;
+	font-size: 1.1rem;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #adadad;
+	padding: 0.5vw;
+}
+
+ul li a:hover {
+	color: #505050;
+	background: #fff;
+	padding: 0.5rem;
+	border-bottom: 2px solid red;
+}
+a:focus {
+	color: #505050;
+	border-bottom: 2px solid red;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	justify-content: space-between;
+}
+.left {
+	margin-top: 42px;
+	margin-right: 70px;
+}
+.right-text{
+	padding-right: 9em;
+	text-align: center;
+}
+.big {
+	font-size: 46px;
+	text-align: left;
+}
+#text {
+	font-size: 20px;
+	margin-bottom: 30px;
+	text-align: left;
+	margin-top: 20px;
+	letter-spacing: 2px;
+}
+
+.pupa {
+	color: red;
+}
+.right {
+	margin-left: 0px;
+}
+
+#red {
+	color: red;
+	font-size: 11px;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+}
+.bold {
+	font-size: 17px;
+	font-family: Playfair Display;
+	font-weight: bolder;
+	margin-bottom: 15px;
+	letter-spacing: px;
+	text-indent: -20px;
+}
+.wrapper {
+	display: grid;
+	grid-template-columns: 37% 37%;
+}
+input {
+	height: 30px;
+	background: rgba(253, 188, 185, 0.2);
+	border: none;
+	border-radius: 7px;
+	margin: 5px;
+	padding: 20px;
+}
+textarea {
+	background: rgba(253, 188, 185, 0.2);
+	border: none;
+	border-radius: 7px;
+	margin: 8px;
+	padding: 20px;
+	font-size: 11px;
+}
+button {
+	width: 19em;
+	height: 40px;
+	color: #fff;
+	background-color: red;
+	border: none;
+	border-radius: 7px;
+	margin-top: 23px;
+	margin-left: 10em;
+	letter-spacing: 1px;
+}
